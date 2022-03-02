@@ -71,6 +71,10 @@ public class RunWith2D {
                 {1, 3},
                 {7, 9}};
         System.out.println(FunWith2DArrays.totalElements(ahh));
+        int[][] ahhh = {{1, 2, 3},
+                {6, 5, 4}};
+        System.out.println(FunWith2DArrays.totalElements(ahhh));
+
 
     }
 }

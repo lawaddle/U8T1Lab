@@ -67,13 +67,67 @@ public class RunWith2D {
 //        }
 //        System.out.println(arr1[0][2] + arr2[2][0]);
 
-        int[][] ahh = {{5, 2},
-                {1, 3},
-                {7, 9}};
-        System.out.println(FunWith2DArrays.totalElements(ahh));
-        int[][] ahhh = {{1, 2, 3},
-                {6, 5, 4}};
-        System.out.println(FunWith2DArrays.totalElements(ahhh));
+//        int[][] ahh = {{5, 2},
+//                {1, 3},
+//                {7, 9}};
+//        System.out.println(FunWith2DArrays.totalElements(ahh));
+//        int[][] ahhh = {{1, 2, 3},
+//                {6, 5, 4}};
+//        System.out.println(FunWith2DArrays.totalElements(ahhh));
+//        int[][] woo = {{1, 2, 3, 4},
+//                {7, 8, 9, 10}};
+//        System.out.println(FunWith2DArrays.totalElements(woo));
+//        int[][] wow = {{4, 5, 2},
+//                {1, 9, 7},
+//                {8, 10, 13}};
+//        System.out.println(FunWith2DArrays.totalElements(wow));
+//        int[][] oww = {{4, 5, 2, 4, 1},
+//                {1, 9, 7, 8, 2},
+//                {8, 10, 13, 4, 3}};
+//        System.out.println(FunWith2DArrays.totalElements(oww));
+//        int[][] hhha = {{4, 5, 2, 4, 8, 9, 10},
+//                {1, 9, 7, 8, 6, 1, 2}};
+//        System.out.println(FunWith2DArrays.totalElements(hhha));
+//        int[][] hho = {{4},
+//                {7},
+//                {8},
+//                {2}};
+//        System.out.println(FunWith2DArrays.totalElements(hho));
+//        int[][] waa = {{4}};
+//        System.out.println(FunWith2DArrays.totalElements(waa));
+//        int[][] whh = {{}};
+//        System.out.println(FunWith2DArrays.totalElements(whh));
+
+        String[][] pop = {{"hi", "bye", "stuff", "go"},
+                {"time", "up", "you", "good"},
+                {"map", "low", "bow", "mom"}};
+        FunWith2DArrays.fourCorners(pop);
+        System.out.println();
+
+        String[][] ree = {{"time", "up", "bye"},
+                {"hi", "hit", "up"},
+                {"map", "bam", "low"},
+                {"bow", "mom", "joy"}};
+        FunWith2DArrays.fourCorners(ree);
+        System.out.println();
+
+        String[][] pre = {{"phone", "mouse", "keyboard"}};
+        FunWith2DArrays.fourCorners(pre);
+        System.out.println();
+
+        String[][] ere = {{"cat"},
+                {"dog"},
+                {"hamster"},
+                {"bird"}};
+        FunWith2DArrays.fourCorners(ere);
+        System.out.println();
+
+        String[][] per = {{"time"}};
+        FunWith2DArrays.fourCorners(per);
+
+
+
+
 
 
     }
